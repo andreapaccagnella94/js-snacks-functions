@@ -19,13 +19,15 @@ function charAtFor(str, index) {
   return ''; // Ritorna una stringa vuota se l'indice è fuori dai limiti
 }
 */
-//dichiaro una const
+// porca troia controlla length SCRIVI BENE
 
 function arrayFirstLetter(myArray) {
     const firstLetters = [];
-    for (let i = 0; i < myArray.lenght; i++) {
-        const firstLetter = myArray[i].charAt(0);
-        firstLetters.push(firstLetter);
+    for (let i = 0; i < myArray.length; i++) {
+        const firstCharater = myArray[i].charAt(0);
+        firstLetters.push(firstCharater);
+
+
     }
     return firstLetters
 }
